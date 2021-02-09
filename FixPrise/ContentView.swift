@@ -14,19 +14,19 @@ struct Bot:View {
         TabView{
             q1().tabItem { VStack{
                 Image("h")
-                Text("").font(.custom("", size: 12))
+                Text("Главная").font(.custom("", size: 12))
             } }.tag(1)
             q2().tabItem { VStack{
                 Image("m")
-                Text("").font(.custom("", size: 12))
+                Text("Каталог").font(.custom("", size: 12))
             } }.tag(2)
             q3().tabItem { VStack{
                 Image("p")
-                Text("").font(.custom("", size: 12))
+                Text("Магазины").font(.custom("", size: 12))
             } }.tag(3)
             ContentView().tabItem { VStack{
                 Image("pro")
-                Text("").font(.custom("", size: 12))
+                Text("Профиль").font(.custom("", size: 12))
             } }.tag(4)
         }
     }
