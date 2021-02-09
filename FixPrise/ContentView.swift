@@ -48,7 +48,7 @@ struct ContentView: View {
                 }.frame(width: UIScreen.main.bounds.width, height: 120, alignment: .center)
                 VStack(spacing:50){
                     VStack(spacing:20){
-                        TextField("Номер Телефона Пароль", text: $nam).frame(width: UIScreen.main.bounds.width-30, height: 1, alignment: .center)
+                        TextField("Номер Телефона", text: $nam).frame(width: UIScreen.main.bounds.width-30, height: 1, alignment: .center)
                         Rectangle().frame(width: UIScreen.main.bounds.width-30, height: 1, alignment: .center).foregroundColor(.gray).opacity(0.2)
                     }
                     VStack(spacing:20){
@@ -79,14 +79,14 @@ struct ContentView_Previews: PreviewProvider {
 struct q1:View {
     var body: some View{
         ZStack{
-            Text("")
+            Text("Главная")
         }
     }
 }
 struct q2:View {
     var body: some View{
         ZStack{
-            Text("")
+            Text("Каталог")
         }
     }
 }
@@ -94,7 +94,7 @@ struct q2:View {
 struct q3:View {
     var body: some View{
         ZStack{
-            Text("")
+            Text("Магазины")
         }
     }
 }
